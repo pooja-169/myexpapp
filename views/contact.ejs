@@ -1,0 +1,14 @@
+<%- include('menu') %>
+<h1>Contact</h1>
+
+<form action="/formprocess" method="post">
+    No1: <input name="num1" type="number"/>
+    No2: <input name="num2" type="number"/>
+    <select name="operation">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
+    </select>
+    <button type ="submit" name="sub1">submit</button>
+</form>
